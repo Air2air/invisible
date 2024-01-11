@@ -25,3 +25,39 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+.react-dual-listbox {
+  width: 100%;
+  height: 80vh;
+  display:flex;
+  justify-content: center;
+  background: red;
+}
+
+.rdl-controls {
+  width: 100%;
+  background: blue;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rdl-control-container {
+  width: 100%;
+  display: flex;
+  flex:1;
+  justify-content: center;
+}
+
+.rdl-actions {
+  align-items: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rdl-actions-to-center {
+  align-items: center;
+  justify-content: center;
+}
