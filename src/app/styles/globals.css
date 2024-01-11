@@ -37,7 +37,7 @@ body {
 
 .rdl-controls {
   width: 100%;
-  background: blue;
+  background: lightblue;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -60,4 +60,8 @@ body {
 .rdl-actions-to-center {
   align-items: center;
   justify-content: center;
+}
+
+.react-dual-listbox__options > li {
+  padding: 10px;
 }

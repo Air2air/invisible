@@ -1,5 +1,4 @@
-import Image from "next/image";
-import ListBox from "./components/DualListbox";
+import ListBox from "./components/Listbox";
 
 export default function Home() {
   const options = [
@@ -10,7 +9,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <ListBox options={options}  />
+      <ListBox options={options} />
     </main>
   );
 }
